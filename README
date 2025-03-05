@@ -1,5 +1,4 @@
 Author: Jack Volonte
-Date: 9/14/2022
 Description: These files perform a cost optimization algorithm implementing a batch gradiant descent algorithm, displaying the different regression lines
 error loss function, R^2 values, and RMSE values as plots & text outputs for some.
 
@@ -37,8 +36,4 @@ TROUBLESHOOTING:
     If the runnable file doesn't configure, a suggestion would be to install and run on PyCharm's community environment (free to signup and install).
            Make sure to configure with a Python interpreter.
 
-For any questions, please contact:
-    volonte22@up.edu
-    or by phone,
-    503-980-8100
 
