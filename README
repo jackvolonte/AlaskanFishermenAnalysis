@@ -1,0 +1,44 @@
+Author: Jack Volonte
+Date: 9/14/2022
+Description: These files perform a cost optimization algorithm implementing a batch gradiant descent algorithm, displaying the different regression lines
+error loss function, R^2 values, and RMSE values as plots & text outputs for some.
+
+File Manifest:
+    albacore_metal.dat
+    dip-har-eff.csv
+    drift-har-eff.csv
+    set-har-eff.csv
+    setNet.py
+    dipNet.py
+    driftNet.py
+    metalModel.py
+    and this README.txt
+
+The different file names are configured to run with their corresponding data files:
+    dipNet.py -> dip-har-eff.csv
+    driftNet.py -> drift-har-eff.csv
+    setNet.py -> set-har-eff.csv
+    metalModel.py -> albacore_metal.dat
+
+Each of these files are configured to be runnable by any Python environment. Written in Pycharm-Community_Edition, each file contains an output consisting of:
+    plots
+    terminal text outputs
+
+USE OF FILES:
+    Run the file you would like (ex. 'dipNet.py') -> output appears on screen both as plots & in environment's terminal. There is no input needed from the user
+    besides running the runnable files (marked with a filetype of .py).
+
+TROUBLESHOOTING:
+    If you receive an error while running these files, make sure first that your environment has the following imports for:
+        matplotlib -> 'pip install matplotlib'
+        numpy -> 'pip install numpy'
+        pandas -> 'pip install pandas'
+
+    If the runnable file doesn't configure, a suggestion would be to install and run on PyCharm's community environment (free to signup and install).
+           Make sure to configure with a Python interpreter.
+
+For any questions, please contact:
+    volonte22@up.edu
+    or by phone,
+    503-980-8100
+
